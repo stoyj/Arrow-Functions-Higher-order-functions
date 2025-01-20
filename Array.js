@@ -248,7 +248,7 @@ const shoppingCart = [
   { name: "Nokia", price: 4.99, quantity: 4 },
 ];
 
-const products1 = shoppingCart.reduce((productGroup, product) => {
+const products1 = shoppingCart.reduce((productGroup, product1) => {
   const name = product1.name;
   if (productGroup[name] == null) {
     productGroup[name] = [];
